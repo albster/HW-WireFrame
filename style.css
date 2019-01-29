@@ -1,0 +1,72 @@
+/*# styles applied to all #*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    margin: 0 auto;
+    
+   
+}
+/*# styles for groups #*/
+header, nav, section, aside, footer {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 10px auto 0px auto;
+    line-height: 150%;
+    height: 50px;
+}
+
+header, nav, footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+section, aside {
+    padding-top: 20px;
+    margin: 20px auto 10px auto;
+    box-sizing: border-box;
+}
+
+/*# singular styles applied #*/
+section {
+    float: left;
+    height: 275px;
+    width: 55%;
+}
+
+aside {
+    float: right;
+    width: 42%;
+    height: 275px;
+}
+
+article {
+    background-color: #777777;
+    color: #ebebeb;
+    box-sizing: border-box;
+    padding: 20px 15px 10px 15px;
+    margin: 25px 10px 10px 10px;
+    height: 75%;
+}
+
+h1, p {
+    color: #777;
+    background-color: #ebebeb;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    height: 33%;
+    margin: 10px 10px;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
+
+footer{
+    float: left;
+    width: 96%;
+}
